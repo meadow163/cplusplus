@@ -1,4 +1,4 @@
-#include "StdAfx.h"
+#include "stdafx.h"
 #include <iostream>
 using namespace std;
 
@@ -37,7 +37,7 @@ void MemManage(void)
 {
 	int *pn;
 	
-	pn=new int[];
+	pn=new int[10];
 	*pn=5;
 
 	delete [] pn;

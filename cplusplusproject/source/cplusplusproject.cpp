@@ -10,7 +10,7 @@ extern void week1();
 extern int & SetValue();
 extern void MyPrintf(const char *p);
 extern void func(int x1,int x2=2,int x3=3);
-int _tmain(int argc, _TCHAR* argv[])
+int main(void)
 {
 
 /*
